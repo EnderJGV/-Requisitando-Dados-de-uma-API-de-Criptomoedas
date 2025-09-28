@@ -35,42 +35,13 @@ export default function Header() {
                 <li>
                   <a
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                    href="#"
+                    href="https://bitcoin.org/pt_BR/faq"
                   >
-                    Historia
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                    href="#"
-                  >
-                    Projetos
+                    FAQ
                   </a>
                 </li>
               </ul>
             </nav>
-          </div>
-
-          <div className="flex items-center gap-4">
-            <div className="sm:flex sm:gap-4">
-              <a
-                className="rounded-md bg-[#F4845F] px-5 py-2.5 text-sm font-medium text-white shadow-sm"
-                href="#"
-              >
-                Acessar
-              </a>
-
-              <div className="hidden sm:flex">
-                <a
-                  className="rounded-md bg-[#364652] px-5 py-2.5 text-sm font-medium text-white dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  Cadastrar
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>

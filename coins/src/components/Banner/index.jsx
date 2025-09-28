@@ -19,14 +19,14 @@ export default function Banner() {
           <div className="mt-4 flex gap-4 sm:mt-6">
             <a
               className="inline-block rounded border border-[#F4845F] bg-[#F4845F] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-[#f4845fcd]"
-              href="#"
+              href="#criptos"
             >
               Ver mais
             </a>
 
             <a
               className="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900"
-              href="#"
+              href="https://academy.binance.com/pt/"
             >
               Aprender sobre
             </a>

@@ -10,12 +10,19 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <Banner/>
-      <Table/>
-      <Footer/>
+      <Header />
+      <Banner />
+      <span className="flex items-center">
+        <span className="h-px flex-1 bg-gray-300"></span>
+
+        <span className="shrink-0 px-4 text-gray-900">Ver mais</span>
+
+        <span className="h-px flex-1 bg-gray-300"></span>
+      </span>
+      <Table />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App

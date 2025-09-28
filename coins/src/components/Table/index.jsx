@@ -10,7 +10,7 @@ export default function Table() {
   const coinsPerPage = 10;
 
   useEffect(() => {
-    fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd")
+    fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=brl")
       .then((res) => res.json())
       .then((data) => setCoins(data));
   }, []);
@@ -23,7 +23,7 @@ export default function Table() {
 
   return (
     <section
-      className="w-full min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-12"
+      className="w-full min-h-screen bg-gradient-to-b from-white to-gray-100 py-12"
       id="criptos"
     >
       <div className="max-w-6xl mx-auto px-4">
@@ -69,10 +69,10 @@ export default function Table() {
                     </span>
                   </td>
                   <td className="px-6 py-4 text-gray-700 font-semibold">
-                    ${coin.current_price.toLocaleString()}
+                    R$ {coin.current_price.toLocaleString()}
                   </td>
                   <td className="px-6 py-4 text-gray-600">
-                    ${coin.market_cap.toLocaleString()}
+                    R$ {coin.market_cap.toLocaleString()}
                   </td>
                   <td
                     className={`px-6 py-4 font-bold ${
